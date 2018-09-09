@@ -13,5 +13,6 @@ spec:
   - name: http
     protocol: TCP
     port: 5000
+    nodePort: 31000
   sessionAffinity: None
-  type: LoadBalancer
+  type: NodePort
